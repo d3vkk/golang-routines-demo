@@ -7,8 +7,8 @@ import (
 
 func main() {
 	message := "Hello Go routine"
-  // Using closures to create an
-  // anonymous function
+	// Using closures to create an
+	// anonymous function
 	go func() {
 		fmt.Println(message)
 	}()
